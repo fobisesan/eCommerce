@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.141.59'
+    implementation 'org.jetbrains:annotations:19.0.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+
+    testCompile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
+    testCompile 'io.cucumber:cucumber-java:4.2.0'
+    testCompile 'io.cucumber:cucumber-junit:4.2.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+
+    test {
+        useTestNG() {
+        }
+    }
+
+}
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OnlineStoreTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-26T10:31:37" hostname="DESKTOP-VBD7PVV" time="55.468">
+  <properties/>
+  <testcase name="addingSonyVaioToCart" classname="OnlineStoreTest" time="18.605"/>
+  <testcase name="verifyCostOfCartIsAsExpected" classname="OnlineStoreTest" time="11.673"/>
+  <testcase name="placeOrder" classname="OnlineStoreTest" time="19.146"/>
+  <system-out><![CDATA[790
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
